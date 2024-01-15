@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Oswald:wght@400;700&family=PT+Serif:wght@400;700&family=Raleway:wght@200;400;500;600&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.headers{
+   position: relative;
+  }
+
+  .hamburger{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: 700;
+    
+  }
+
+/* Style the navigation bar */
+.navbars {
+    width: 50%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Navbar links */
+.navbars a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.logo {
+    padding-block: 25px;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.big_H p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+
+}
+
+.small_H {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(209, 209, 209);
+    position: relative;
+}
+
+.small_H p {
+    position: absolute;
+    top: -53px;
+    right: -100px;
+}
+
+.normal_H {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.swiper {
+    width: 100%;
+    height: 526px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper {
+    padding-block: 35px;
+}
+
+.about_wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_wrap h1 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about_wrap p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 45px;
+    line-height: 1.875em;
+}
+
+.product_wrapper {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-body {
+    padding-bottom: 60px;
+}
+
+.single_wrapper {
+    margin-block: 90px;
+}
+
+.product_details h1 {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
+}
+
+.product_details p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.p_align {
+    display: flex;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+.p_first_row {
+    margin-bottom: 50px;
+}
+
+.product_details .second_details {
+    font-size: 13px;
+}
+
+.forms {
+    padding-top: 80px;
+}
+
+.forms h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    ;
+}
+
+input {
+    border-radius: 0px !important;
+    padding-block: 20px !important;
+}
+
+textarea {
+    border-radius: 0px !important;
+}
+
+.home_btn {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    padding-inline: 40px;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons i {
+    color: black;
+    padding-inline: 8px;
+    margin-bottom: 30px;
+}
+
+/* about */
+
+.small_Hs {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(209, 209, 209);
+    position: relative;
+}
+
+.small_Hs p {
+    position: absolute;
+    top: -53px;
+    right: -20px;
+}
+
+.about_wrapperss {
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.the_team {
+    background-color: rgb(250, 250, 250);
+    margin-block: 60px;
+}
+
+.the_team h1 {
+    padding-top: 50px;
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+}
+
+.image img {
+    border-radius: 50%;
+}
+
+.img_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image span {
+    display: block;
+    font-family: 'GFS Didot', serif;
+
+
+}
+
+.image .name {
+    padding-top: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.content {
+    margin-block: 70px;
+    padding-bottom: 30px;
+}
+
+.image i {
+    color: rgb(129, 124, 124);
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.about_text {
+    font-size: 14px;
+    padding-inline: 65px;
+}
+
+/* contact */
+
+.small_Hc {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(209, 209, 209);
+    position: relative;
+}
+
+.small_Hc p {
+    position: absolute;
+    top: -53px;
+    right: -70px;
+}
+
+
+.overlay{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn{   
+    font-size: 70px;
+    position: absolute;
+    right: 20px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px) {
+    .homeWrapper {
+        width: 100% !important;
+        overflow-x: hidden;
+        padding-inline: 15px;
+    }
+
+    .logoWrapper {
+        border-bottom: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .hero_section {
+        padding-top: 20px;
+    }
+
+    .big_H p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .small_H {
+        font-size: 20px;
+        top: 35px;
+
+    }
+
+    .small_H p {
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+
+
+    }
+
+    /* .normal_H{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+      } */
+
+    .swiper {
+        height: 350px;
+    }
+
+    .about_wrapper {
+        margin-top: 30px;
+    }
+
+    .about_wrap h1 {
+        font-size: 30px;
+    }
+
+    .about_wrap p {
+        text-align: left;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .product_wrapper {
+        margin-top: 50px;
+    }
+
+    .card-title {
+        font-weight: 600;
+    }
+
+    .card-body {
+        padding-bottom: 30px;
+    }
+
+    .about_wrap p {
+        font-size: 19px;
+    }
+
+    .p_first_row img {
+        width: 360px;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .p_align {
+        padding-inline: 10px;
+    }
+
+    .forms {
+        padding-top: 0;
+    }
+
+    .forms h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .forms .address {
+        text-align: center;
+    }
+
+    .home_btn {
+        width: 100%;
+    }
+
+    .small_Hs,
+    .small_Hc {
+        font-size: 20px;
+        top: 35px;
+    }
+
+    .small_Hs p,
+    .small_Hc p {
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .contactWrap {
+        padding-inline: 0;
+    }
+
+    .about_wrapperss {
+        padding-inline: 15px;
+    }
+
+    .about_text {
+        padding-inline: 15px;
+    }
+
+    .second_about {
+        padding-top: 50px;
+    }
+
+    .about_cont {
+        margin-top: 50px;
+    }
+    .address{
+        padding: 0 !important;
+    }
+    .footer{
+        margin-bottom: 40px;
+    }
+}
