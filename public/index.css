@@ -527,13 +527,16 @@ hr {
 }
 
 .diamond_sect{
-    padding: 100px;
+    padding: 100px 100px 0 100px;
 }
 .diamond_sect_text, .diamond_types, .types, .type_3{
     color: #2d5a65;
     font-family: 'Montserrat', sans-serif;
 }
-.diamond_sect_text h2, .diamond_types h2{
+.top_bidders{
+    font-family: 'Montserrat', sans-serif;
+}
+.diamond_sect_text h2, .diamond_types h2, .top_bidders h2{
     font-weight: 700;
     font-size: 35px;
 }
