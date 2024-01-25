@@ -32,6 +32,9 @@ app.get('/contact', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about/includes.ejs')
 })
+app.get('/investment', (req, res) => {
+    res.render('investment/includes.ejs')
+})
 
 
 app.listen(port, () => {

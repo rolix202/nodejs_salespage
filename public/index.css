@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Oswald:wght@400;700&family=PT+Serif:wght@400;700&family=Raleway:wght@200;400;500;600&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
 
 
 * {
@@ -483,5 +484,185 @@ hr {
     }
     .footer{
         margin-bottom: 40px;
+    }
+}
+
+/* ///////////////////// */
+
+
+.investment{
+    background-image: url('/images/Picture1.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.investment::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.invest_hero {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: auto; /* Add this line to center horizontally */
+    top: 50%; /* Add this line to center vertically */
+    transform: translateY(-50%); /* Add this line to adjust for vertical centering */
+    color: white;
+}
+.invest_wrap h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.diamond_sect{
+    padding: 100px;
+}
+.diamond_sect_text, .diamond_types, .types, .type_3{
+    color: #2d5a65;
+    font-family: 'Montserrat', sans-serif;
+}
+.diamond_sect_text h2, .diamond_types h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.diamond_just{
+    text-align: justify;
+}
+.diamond_sect_text .firstsss{
+    font-size: 18.75px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.types{
+    font-size: 30px;
+    font-weight: 700;
+}
+.type_3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+.type_1, .type_2{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.each_diamond_listing{
+    height: 130px;
+}
+.diamond_infoss{
+    padding-bottom: 0 !important;
+}
+.foot_text{
+    font-size: 12px;
+}
+
+.diamond_foot{
+    color: #D6B96C;
+    font-style: italic;
+    font-weight: 700;
+}
+.diamond_sect_text .second, ul, .diamond_types .second{
+    font-size: 18.75px;
+}
+.diamond_types{
+    margin-block: 80px;
+}
+.investment_options{
+    margin-block: 80px;
+}
+.bids{
+    color: #2d5a65;
+    font-weight: 700;
+}
+.dividerrr{
+    width: 100%;
+    border: 5px solid #2EA2B1;
+}
+.custom-shape-divider-bottom-1706121701 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706121701 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1706121701 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1706121701 svg {
+        width: calc(115% + 1.3px);
+        height: 63px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1706121701 svg {
+        width: calc(117% + 1.3px);
+        height: 44px;
+    }
+}
+
+
+.custom-shape-divider-top-1706122092 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1706122092 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+}
+
+.custom-shape-divider-top-1706122092 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1706122092 svg {
+        width: calc(132% + 1.3px);
+        height: 59px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1706122092 svg {
+        width: calc(134% + 1.3px);
+        height: 49px;
     }
 }
