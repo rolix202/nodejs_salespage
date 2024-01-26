@@ -526,22 +526,37 @@ hr {
     font-size: 50px;
 }
 
-.diamond_sect{
+/* .diamond_sect{
     padding: 100px 100px 0 100px;
+} */
+
+.investment_options{
+    padding: 50px 100px 0 100px;
 }
-.diamond_sect_text, .diamond_types, .types, .type_3{
+.diamond_sect_text, .diamond_types, .types, .type_3, .diamond_benefits, .diamond_benefits h2, .investment_options h2, .how_it_works{
     color: #2d5a65;
     font-family: 'Montserrat', sans-serif;
 }
 .top_bidders{
     font-family: 'Montserrat', sans-serif;
 }
-.diamond_sect_text h2, .diamond_types h2, .top_bidders h2{
+.diamond_sect_text h2, .diamond_types h2, .top_bidders h2, .investment_options h2, .how_it_works h2{
     font-weight: 700;
     font-size: 35px;
 }
+.diamond_benefits h2{
+    font-size: 25px;
+}
+.diamond_benefits p{
+    font-size: 17px;
+    font-weight: 400;
+}
 .diamond_just{
     text-align: justify;
+}
+.iconnnn{
+    font-size: 50px;
+    margin-bottom: 5px;
 }
 .diamond_sect_text .firstsss{
     font-size: 18.75px;
@@ -594,6 +609,23 @@ hr {
 .dividerrr{
     width: 100%;
     border: 5px solid #2EA2B1;
+    opacity: 1 !important;
+}
+.diamond_benefits{
+    height: 360px;
+}
+.how_it_works{
+    margin-block: 60px;
+}
+.availble_bids{
+   background-color: #2EA2B1;
+   color: white;
+   font-weight: 700;
+
+}
+.availble_bids:hover{
+    background-color: #2d5a65;
+    color: white;
 }
 .custom-shape-divider-bottom-1706121701 {
     position: absolute;
