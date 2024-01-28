@@ -531,7 +531,7 @@ hr {
 } */
 
 .investment_options{
-    padding: 50px 100px 0 100px;
+    padding-inline: 100px;
 }
 .diamond_sect_text, .diamond_types, .types, .type_3, .diamond_benefits, .diamond_benefits h2, .investment_options h2, .how_it_works{
     color: #2d5a65;
@@ -623,6 +623,9 @@ hr {
    font-weight: 700;
 
 }
+.tableFname{
+    width: 18%;
+}
 .availble_bids:hover{
     background-color: #2d5a65;
     color: white;
@@ -700,4 +703,9 @@ hr {
         width: calc(134% + 1.3px);
         height: 49px;
     }
+}
+
+.modal{
+    --bs-modal-width: 80%;
+    margin: 0 auto;
 }

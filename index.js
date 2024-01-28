@@ -7,6 +7,7 @@ import path from "path"
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 import { renderFile } from "ejs";
+import messageRoute from './routes/messageRoute.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -35,6 +36,9 @@ app.get('/about', (req, res) => {
 app.get('/investment', (req, res) => {
     res.render('investment/includes.ejs')
 })
+
+
+app.post('/', messageRoute)
 
 
 app.listen(port, () => {
