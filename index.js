@@ -38,7 +38,7 @@ app.get('/investment', (req, res) => {
 })
 
 
-app.post('/', messageRoute)
+app.use('/', messageRoute)
 
 
 app.listen(port, () => {

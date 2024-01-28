@@ -64,26 +64,49 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <form class="row g-3">
+                        <form action="/submitMessage" method="POST" class="row g-3">
+
+                            <% if (typeof msg !=='undefined' ) { %>
+                                <% if (msg == ''){ %>
+                                    <div class="alert alert-danger animate__animated animate__shakeX text-center fs-5 d-none"
+                                        role="alert"></div>
+                                    <% } else { %>
+                                        <div class="alert alert-danger animate__animated animate__shakeX text-center fs-5"
+                                            role="alert">
+                                            <%= msg %>
+                                        </div>
+                                        <% } %>
+                            <% } else if (typeof error !== 'undefined') { %>
+                                    <% if (error == ''){ %>
+                                        <div class="alert alert-danger animate__animated animate__shakeX text-center fs-5 d-none"
+                                            role="alert"></div>
+    
+                                        <%} else { %>
+                                                    <div class="alert alert-danger animate__animated animate__shakeX text-center fs-5"
+                                                    role="alert">
+                                                    <%= error %>
+                                                </div>
+                                                <% } %>
+                                                <% } %>
                             <div class="col-12">
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" required>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" name="name" required>
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Address" name="address" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Email" required>
+                                <input type="email" class="form-control" id="inputAddress2" placeholder="Email" name="email" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="inputCity" placeholder="Phone">
+                                <input type="text" class="form-control" id="inputCity" placeholder="Phone" name="phone" required>
                             </div>
     
                             <div class="col-12">
-                                <input type="text" class="form-control" id="inputZip" placeholder="Subject">
+                                <input type="text" class="form-control" id="inputZip" placeholder="Subject" name="subject" required>
                             </div>
                             <div class="col-md-12">
                                 <textarea class="form-control" id="comment" name="comment"
-                                    rows="3">Type your message here ...</textarea>
+                                    rows="3" required>Type your message here ...</textarea>
                             </div>
                             <div class="col-12 d-flex justify-content-end">
                                 <button type="submit" class="btn home_btn">Submit</button>
