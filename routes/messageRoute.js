@@ -33,8 +33,8 @@ const sendEmail = async (name, address, email, phone, subject, comment) => {
   
     try {
       const info = await transporter.sendMail({
-        from: '"Info" <admin@earthplanetminerals.com>',
-        to: 'admin@earthplanetminerals.com',
+        from: '"Info" <info@earthplanetminerals.com>',
+        to: 'info@earthplanetminerals.com',
         subject: 'Contact Form Mesaage - Earth Planet Minerals',
         html: output,
       });
