@@ -56,6 +56,7 @@ const sendEmail = async (name, address, email, phone, subject, comment) => {
       }
   
       const messageId = await sendEmail(name, address, email, phone, subject, comment);
+      
         res.render('contact/includes.ejs', { msg: 'Message sent successfully!'});
     } catch (error) {
       console.error(error);
