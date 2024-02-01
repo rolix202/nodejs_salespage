@@ -342,151 +342,6 @@ hr {
     font-weight: 700;
 }
 
-
-@media (max-width: 768px) {
-    .homeWrapper {
-        width: 100% !important;
-        overflow-x: hidden;
-        padding-inline: 15px;
-    }
-
-    .logoWrapper {
-        border-bottom: 0 !important;
-        max-width: 100% !important;
-    }
-
-    .hero_section {
-        padding-top: 20px;
-    }
-
-    .big_H p {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .small_H {
-        font-size: 20px;
-        top: 35px;
-
-    }
-
-    .small_H p {
-        position: absolute;
-        right: 0;
-        left: 0;
-        text-align: center;
-
-
-    }
-
-    /* .normal_H{
-        font-family: 'Oswald', sans-serif;
-        font-size: 22px;
-      } */
-
-    .swiper {
-        height: 350px;
-    }
-
-    .about_wrapper {
-        margin-top: 30px;
-    }
-
-    .about_wrap h1 {
-        font-size: 30px;
-    }
-
-    .about_wrap p {
-        text-align: left;
-        font-size: 20px;
-        padding-top: 20px;
-    }
-
-    .product_wrapper {
-        margin-top: 50px;
-    }
-
-    .card-title {
-        font-weight: 600;
-    }
-
-    .card-body {
-        padding-bottom: 30px;
-    }
-
-    .about_wrap p {
-        font-size: 19px;
-    }
-
-    .p_first_row img {
-        width: 360px;
-        height: auto;
-        object-fit: cover;
-        object-position: 50% 50%;
-    }
-
-    .p_align {
-        padding-inline: 10px;
-    }
-
-    .forms {
-        padding-top: 0;
-    }
-
-    .forms h1 {
-        font-size: 23px;
-        text-align: center;
-    }
-
-    .forms .address {
-        text-align: center;
-    }
-
-    .home_btn {
-        width: 100%;
-    }
-
-    .small_Hs,
-    .small_Hc {
-        font-size: 20px;
-        top: 35px;
-    }
-
-    .small_Hs p,
-    .small_Hc p {
-        position: absolute;
-        right: 0;
-        left: 0;
-        text-align: center;
-    }
-
-    .contactWrap {
-        padding-inline: 0;
-    }
-
-    .about_wrapperss {
-        padding-inline: 15px;
-    }
-
-    .about_text {
-        padding-inline: 15px;
-    }
-
-    .second_about {
-        padding-top: 50px;
-    }
-
-    .about_cont {
-        margin-top: 50px;
-    }
-    .address{
-        padding: 0 !important;
-    }
-    .footer{
-        margin-bottom: 40px;
-    }
-}
-
 /* ///////////////////// */
 
 
@@ -708,4 +563,180 @@ hr {
 .modal{
     --bs-modal-width: 80%;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .homeWrapper {
+        width: 100% !important;
+        overflow-x: hidden;
+        padding-inline: 15px;
+    }
+
+    .logoWrapper {
+        border-bottom: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .hero_section {
+        padding-top: 20px;
+    }
+
+    .big_H p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .small_H {
+        font-size: 20px;
+        top: 35px;
+
+    }
+
+    .small_H p {
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+
+
+    }
+
+    /* .normal_H{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+      } */
+
+    .swiper {
+        height: 350px;
+    }
+
+    .about_wrapper {
+        margin-top: 30px;
+    }
+
+    .about_wrap h1 {
+        font-size: 30px;
+    }
+
+    .about_wrap p {
+        text-align: left;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .product_wrapper {
+        margin-top: 50px;
+    }
+
+    .card-title {
+        font-weight: 600;
+    }
+
+    .card-body {
+        padding-bottom: 30px;
+    }
+
+    .about_wrap p {
+        font-size: 19px;
+    }
+
+    .p_first_row img {
+        width: 360px;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .p_align {
+        padding-inline: 10px;
+    }
+
+    .forms {
+        padding-top: 0;
+    }
+
+    .forms h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .forms .address {
+        text-align: center;
+    }
+
+    .home_btn {
+        width: 100%;
+    }
+
+    .small_Hs,
+    .small_Hc {
+        font-size: 20px;
+        top: 35px;
+    }
+
+    .small_Hs p,
+    .small_Hc p {
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .contactWrap {
+        padding-inline: 0;
+    }
+
+    .about_wrapperss {
+        padding-inline: 15px;
+    }
+
+    .about_text {
+        padding-inline: 15px;
+    }
+
+    .second_about {
+        padding-top: 50px;
+    }
+
+    .about_cont {
+        margin-top: 50px;
+    }
+    .address{
+        padding: 0 !important;
+    }
+    .footer{
+        margin-bottom: 40px;
+    }
+    .investmentWrapper{
+        overflow-x: hidden;
+    }
+    .invest_hero{
+        width: 100%;
+        padding-inline: 10px;
+    }
+    .invest_wrap h1{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .invest_wrap h3{
+        padding-top: 20px;
+    }
+    .img_diamond{
+        width: 100%;
+        padding-block: 50px;
+      
+    }
+    .img_diamond img{
+        max-width: 100%;
+    }
+    .diamond_sect_text h2, .diamond_types h2, .top_bidders h2, .investment_options h2, .how_it_works h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .diamond_sect_text p{
+        text-align: center;
+    }
+    .investment_options{
+        padding-inline: 20px;
+    }
 }
